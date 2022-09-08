@@ -1,5 +1,5 @@
 import { NetworksUserConfig } from "hardhat/types";
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 
 dotenv.config();
 
@@ -13,7 +13,7 @@ if (process.env.PRIVATE_KEY) {
   };
   networks.goerli = {
     chainId: 5,
-    url: process.env.RINKEBY_RPC,
+    url: process.env.GOERI_PRC,
     accounts: [process.env.PRIVATE_KEY],
   };
 } else {

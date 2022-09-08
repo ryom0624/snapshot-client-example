@@ -1,0 +1,55 @@
+{
+  "space": {
+    "__args": {
+      "id": "ensrinkby.eth"
+    },
+    "name": true,
+    "private": true,
+    "about": true,
+    "avatar": true,
+    "terms": true,
+    "location": true,
+    "website": true,
+    "twitter": true,
+    "github": true,
+    "email": true,
+    "network": true,
+    "symbol": true,
+    "skin": true,
+    "domain": true,
+    "strategies": {
+      "name": true,
+      "network": true,
+      "params": true
+    },
+    "admins": true,
+    "members": true,
+    "filters": {
+      "minScore": true,
+      "onlyMembers": true
+    },
+    "plugins": true,
+    "voting": {
+      "delay": true,
+      "period": true,
+      "type": true,
+      "quorum": true,
+      "blind": true,
+      "hideAbstain": true,
+      "privacy": true
+    },
+    "categories": true,
+    "validation": {
+      "name": true,
+      "network": true,
+      "params": true
+    },
+    "treasuries": {
+      "name": true,
+      "address": true,
+      "network": true
+    },
+    "followersCount": true,
+    "proposalsCount": true
+  }
+}

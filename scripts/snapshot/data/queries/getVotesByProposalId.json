@@ -1,0 +1,42 @@
+{
+  "votes": {
+    "__args": {
+      "first": 1000,
+      "skip": 0,
+      "where": {
+        "space_in": ["ensrinkby.eth"],
+        "proposal": ""
+      },
+      "orderBy": "created"
+    },
+    "id": true,
+    "voter": true,
+    "ipfs": true,
+    "vp": true,
+    "vp_by_strategy": true,
+    "vp_state": true,
+    "created": true,
+    "proposal": {
+      "id": true,
+      "title": true,
+      "body": true,
+      "choices": true,
+      "start": true,
+      "end": true,
+      "snapshot": true,
+      "state": true,
+      "author": true,
+      "created": true,
+      "scores": true,
+      "scores_by_strategy": true,
+      "scores_total": true,
+      "scores_updated": true,
+      "plugins": true,
+      "network": true
+    },
+    "choice": true,
+    "space": {
+      "id": true
+    }
+  }
+}

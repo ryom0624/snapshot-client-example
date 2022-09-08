@@ -1,0 +1,12 @@
+{
+  "vp": {
+    "__args": {
+      "voter": "",
+      "space": "",
+      "proposal": ""
+    },
+    "vp": true,
+    "vp_by_strategy": true,
+    "vp_state": true
+  }
+}

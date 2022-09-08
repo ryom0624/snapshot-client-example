@@ -1,0 +1,48 @@
+{
+  "proposals": {
+    "__args": {
+      "first": 20,
+      "skip": 0,
+      "where": {
+        "space_in": ["ensrinkby.eth"],
+        "state": "open"
+      },
+      "orderBy": "created"
+    },
+    "id": true,
+    "ipfs": true,
+    "author": true,
+    "space": {
+      "id": true,
+      "name": true
+    },
+    "created": true,
+    "network": true,
+    "symbol": true,
+    "type": true,
+    "strategies": {
+      "name": true,
+      "network": true,
+      "params": true
+    },
+    "plugins": true,
+    "title": true,
+    "body": true,
+    "discussion": true,
+    "choices": true,
+    "start": true,
+    "end": true,
+    "quorum": true,
+    "privacy": true,
+    "snapshot": true,
+    "state": true,
+    "link": true,
+    "app": true,
+    "scores": true,
+    "scores_by_strategy": true,
+    "scores_state": true,
+    "scores_total": true,
+    "scores_updated": true,
+    "votes": true
+  }
+}

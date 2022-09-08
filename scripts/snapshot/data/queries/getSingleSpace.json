@@ -1,0 +1,13 @@
+{
+  "space": {
+    "__args": {
+      "id": "ensrinkby.eth"
+    },
+    "id": true,
+    "name": true,
+    "about": true,
+    "network": true,
+    "symbol": true,
+    "members": true
+  }
+}
